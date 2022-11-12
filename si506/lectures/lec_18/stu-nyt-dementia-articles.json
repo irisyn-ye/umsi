@@ -1,0 +1,689 @@
+[
+  {
+    "abstract": "Many patients with cognitive impairment have anxiety or depression, but standard treatments are difficult for people with memory issues.",
+    "web_url": "https://www.nytimes.com/2019/12/08/health/dementia-depression-therapy.html",
+    "snippet": "Many patients with cognitive impairment have anxiety or depression, but standard treatments are difficult for people with memory issues.",
+    "lead_paragraph": "Anne Firmender, 74, was working with her psychologist to come up with a list of her positive attributes.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "New Therapies Help Patients With Dementia Cope With Depression",
+      "kicker": null,
+      "content_kicker": null,
+      "print_headline": "Therapies Harness Power of Positivity",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Mental Health and Disorders",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Depression (Mental)",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Alzheimer's Disease",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Memory",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "organizations",
+        "value": "Weill Cornell Medical College",
+        "rank": 5,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Dementia",
+        "rank": 6,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Elderly",
+        "rank": 7,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 8,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Therapy and Rehabilitation",
+        "rank": 9,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "your-feed-science",
+        "rank": 10,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "your-feed-healthcare",
+        "rank": 11,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2019-12-08T05:26:43+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Health",
+    "byline": {
+      "original": "By Andrea Petersen",
+      "person": [
+        {
+          "firstname": "Andrea",
+          "middlename": null,
+          "lastname": "Petersen",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1750
+  },
+  {
+    "abstract": "The research center, with $17 million from donors, aims to give “psychedelic medicine” a long-sought foothold in the scientific establishment.",
+    "web_url": "https://www.nytimes.com/2019/09/04/science/psychedelic-drugs-hopkins-depression.html",
+    "snippet": "The research center, with $17 million from donors, aims to give “psychedelic medicine” a long-sought foothold in the scientific establishment.",
+    "lead_paragraph": "Since childhood, Rachael Petersen had lived with an unexplainable sense of grief that no drug or talk therapy could entirely ease. So in 2017 she volunteered for a small clinical trial at Johns Hopkins University that was testing psilocybin, the active ingredient in magic mushrooms, for chronic depression. ",
+    "source": "The New York Times",
+    "headline": {
+      "main": "Johns Hopkins Opens New Center for Psychedelic Research",
+      "kicker": null,
+      "content_kicker": null,
+      "print_headline": "Center to Explore Psychedelics for Mental Health",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "organizations",
+        "value": "Johns Hopkins University",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Mental Health and Disorders",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "LSD (Lysergic Acid Diethylamide)",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Ecstasy (Drug)",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Drugs (Pharmaceuticals)",
+        "rank": 5,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Depression (Mental)",
+        "rank": 6,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Drug Abuse and Traffic",
+        "rank": 7,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Addiction (Psychology)",
+        "rank": 8,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 9,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Therapy and Rehabilitation",
+        "rank": 10,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychiatry and Psychiatrists",
+        "rank": 11,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Alzheimer's Disease",
+        "rank": 12,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "ANOREXIA NERVOSA",
+        "rank": 13,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Smoking and Tobacco",
+        "rank": 14,
+        "major": "N"
+      },
+      {
+        "name": "organizations",
+        "value": "Imperial College London",
+        "rank": 15,
+        "major": "N"
+      },
+      {
+        "name": "organizations",
+        "value": "Journal of Psychopharmacology",
+        "rank": 16,
+        "major": "N"
+      },
+      {
+        "name": "persons",
+        "value": "Ferriss, Timothy",
+        "rank": 17,
+        "major": "N"
+      },
+      {
+        "name": "persons",
+        "value": "Johnson, Matthew W",
+        "rank": 18,
+        "major": "N"
+      },
+      {
+        "name": "persons",
+        "value": "Griffiths, Roland R",
+        "rank": 19,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "your-feed-science",
+        "rank": 20,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2019-09-04T16:17:11+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Science",
+    "byline": {
+      "original": "By Benedict Carey",
+      "person": [
+        {
+          "firstname": "Benedict",
+          "middlename": null,
+          "lastname": "Carey",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1306
+  },
+  {
+    "abstract": "Stigma often prevents patients from acknowledging an Alzheimer’s diagnosis. A series of high-profile disclosures may help change that. ",
+    "web_url": "https://www.nytimes.com/2018/11/09/health/alzheimers-dementia-celebrities.html",
+    "snippet": "Stigma often prevents patients from acknowledging an Alzheimer’s diagnosis. A series of high-profile disclosures may help change that. ",
+    "lead_paragraph": "The spouses arriving for the Wednesday afternoon caregivers’ class at the Penn Memory Center in Philadelphia had something on their minds even before Alison Lynn, the social worker leading the session, could start the conversation.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "Dementia Is Getting Some Very Public Faces",
+      "kicker": "the new old age",
+      "content_kicker": null,
+      "print_headline": "The Increasingly Public Face of Dementia",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Alzheimer's Disease",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Elderly",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Dementia",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Disabilities",
+        "rank": 5,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Celebrities",
+        "rank": 6,
+        "major": "N"
+      },
+      {
+        "name": "persons",
+        "value": "O'Connor, Sandra Day",
+        "rank": 7,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2018-11-09T18:21:06+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Health",
+    "byline": {
+      "original": "By Paula Span",
+      "person": [
+        {
+          "firstname": "Paula",
+          "middlename": null,
+          "lastname": "Span",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1180
+  },
+  {
+    "abstract": "Seven decades after she began, Dr. Milner continues to explore the biology of memory and how the brain’s many parts function together.",
+    "web_url": "https://www.nytimes.com/2017/05/15/science/brenda-milner-brain-cognitive-neuroscience.html",
+    "snippet": "Seven decades after she began, Dr. Milner continues to explore the biology of memory and how the brain’s many parts function together.",
+    "lead_paragraph": "MONTREAL — The driving instructor wiped his brow with a handkerchief, and not just because of the heat. His student — a grown woman, squinting over the dashboard — was ramming the curb in an effort to parallel park.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "Brenda Milner, Eminent Brain Scientist, Is ‘Still Nosy’ at 98",
+      "kicker": "Profiles in Science",
+      "content_kicker": null,
+      "print_headline": "At 98, ‘Still Nosy’ About the Brain",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "persons",
+        "value": "Milner, Brenda",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Memory",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Amnesia",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Brain",
+        "rank": 5,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Dementia",
+        "rank": 6,
+        "major": "N"
+      },
+      {
+        "name": "persons",
+        "value": "Molaison, Henry Gustav",
+        "rank": 7,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2017-05-15T14:27:16+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Science",
+    "byline": {
+      "original": "By Benedict Carey",
+      "person": [
+        {
+          "firstname": "Benedict",
+          "middlename": null,
+          "lastname": "Carey",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1379
+  },
+  {
+    "abstract": "A storytelling workshop for couples dealing with memory loss helps reinforce the strengths in their relationships.",
+    "web_url": "https://well.blogs.nytimes.com/2016/08/08/dementia-patients-hold-on-to-love-through-shared-stories/",
+    "snippet": "A storytelling workshop for couples dealing with memory loss helps reinforce the strengths in their relationships.",
+    "lead_paragraph": "Can you keep the love light shining after your partner’s brain has begun to dim? Just ask Denise Tompkins of Naperville, Ill., married 36 years to John, now 69, who has Alzheimer’s disease.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "Alzheimer’s Patients Keep the Spark Alive by Sharing Stories",
+      "kicker": "Well",
+      "content_kicker": null,
+      "print_headline": "With Dementia, Stories as a Reminder of Love",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Alzheimer's Disease",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Memory",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 3,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2016-08-08T09:45:53+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Health",
+    "byline": {
+      "original": "By Jane E. Brody",
+      "person": [
+        {
+          "firstname": "Jane",
+          "middlename": "E.",
+          "lastname": "Brody",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1079
+  },
+  {
+    "abstract": "The federal agency said the company couldn’t back up its claims of helping with cognitive impairment, but experts on both sides weighed in.",
+    "web_url": "https://www.nytimes.com/2016/01/19/health/ftcs-lumosity-penalty-doesnt-end-brain-training-debate.html",
+    "snippet": "The federal agency said the company couldn’t back up its claims of helping with cognitive impairment, but experts on both sides weighed in.",
+    "lead_paragraph": "A few years ago, Jennifer Perrine saw a television ad for Lumosity, an online brain training program, and decided she’d give it a try.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "F.T.C.’s Lumosity Penalty Doesn’t End Brain Training Debate",
+      "kicker": " The New Old Age",
+      "content_kicker": null,
+      "print_headline": "After the F.T.C.’s Failing Grade for Lumosity",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Brain",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "organizations",
+        "value": "Lumos Labs Inc",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "organizations",
+        "value": "Federal Trade Commission",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Elderly",
+        "rank": 5,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Memory",
+        "rank": 6,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Dementia",
+        "rank": 7,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 8,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2016-01-15T17:24:38+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Health",
+    "byline": {
+      "original": "By Paula Span",
+      "person": [
+        {
+          "firstname": "Paula",
+          "middlename": null,
+          "lastname": "Span",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "News",
+    "word_count": 1135
+  },
+  {
+    "abstract": "Two letters to the Editor.",
+    "web_url": "https://www.nytimes.com/2012/10/02/health/a-dangerous-remedy-2-letters.html",
+    "snippet": "Two letters to the Editor.",
+    "lead_paragraph": "To the Editor:",
+    "source": "The New York Times",
+    "headline": {
+      "main": "A Dangerous Remedy (2 Letters)",
+      "kicker": "Letters",
+      "content_kicker": null,
+      "print_headline": "A Dangerous Remedy",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Drugs (Pharmaceuticals)",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Mental Health and Disorders",
+        "rank": 3,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Dementia",
+        "rank": 4,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Elderly",
+        "rank": 5,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2012-10-01T22:38:34+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Health",
+    "byline": {
+      "original": null,
+      "person": [],
+      "organization": null
+    },
+    "type_of_material": "Letter",
+    "word_count": 258
+  },
+  {
+    "abstract": "Among other benefits, the regular use of two languages appears to delay the onset of Alzheimer’s disease symptoms.",
+    "web_url": "https://www.nytimes.com/2011/05/31/science/31conversation.html",
+    "snippet": "Among other benefits, the regular use of two languages appears to delay the onset of Alzheimer’s disease symptoms.",
+    "lead_paragraph": "A cognitive neuroscientist, Ellen Bialystok has spent almost 40 years learning about how bilingualism sharpens the mind. Her good news: Among other benefits, the regular use of two languages appears to delay the onset of Alzheimer&#8217;s disease symptoms. Dr. Bialystok, 62, a distinguished research professor of psychology at York University in Toronto, was awarded a $100,000 Killam Prize last year for her contributions to social science. We spoke for two hours in a Washington hotel room in February and again, more recently, by telephone. An edited version of the two conversations follows.",
+    "source": "The New York Times",
+    "headline": {
+      "main": "The Bilingual Advantage",
+      "kicker": null,
+      "content_kicker": null,
+      "print_headline": "A Conversation With | Ellen Bialystok",
+      "name": null,
+      "seo": null,
+      "sub": null
+    },
+    "keywords": [
+      {
+        "name": "subject",
+        "value": "Psychology and Psychologists",
+        "rank": 1,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Language and Languages",
+        "rank": 2,
+        "major": "N"
+      },
+      {
+        "name": "subject",
+        "value": "Alzheimer's Disease",
+        "rank": 3,
+        "major": "N"
+      }
+    ],
+    "pub_date": "2011-05-30T20:17:18+0000",
+    "document_type": "article",
+    "news_desk": "Science",
+    "section_name": "Science",
+    "byline": {
+      "original": "By Claudia Dreifus",
+      "person": [
+        {
+          "firstname": "Claudia",
+          "middlename": null,
+          "lastname": "Dreifus",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }
+      ],
+      "organization": null
+    },
+    "type_of_material": "Interview",
+    "word_count": 1153
+  }
+]
