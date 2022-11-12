@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>JS Challenge #5</title>
+	</head>
+	<body>
+		<main>
+			<h1>JavaScript Challenge #5</h1>
+			<form>
+				<fieldset>
+					<legend>Personal details</legend>
+					<p>
+						<label for="age">Age:</label>
+						<input type="text" name="age" id="age">
+					</p>
+					<p class="errormsg" id="ageerrormsg">Please enter a number</p>
+				</fieldset>
+				<input onclick="event.preventDefault(); checkNum()" type="submit" value="Submit">
+			</form>
+		</main>
+		<script src="js/jsChallenges.js"></script>
+	</body>
+</html>

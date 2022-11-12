@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>JS Challenge #4</title>
+	</head>
+	<body>
+	  <main>
+	    <h1>JavaScript Challenge #4</h1>
+			<form>
+		  	<fieldset>
+			    <legend>Personal details</legend>
+			    <p>
+			      <label for="fullname">Full name:</label>
+						<input type="text" name="fullname" id="fullname">
+			    </p>
+			    <p class="errormsg" id="nameerrormsg">Please enter your name above</p>
+			    <p>
+			      <label>Street Address:</label>
+						<input type="text" name="streetaddr" id="streetaddr">
+			    </p>
+			    <p class="errormsg" id="addrerrormsg">Please enter your street address</p>
+			  </fieldset>
+			  <input onclick="event.preventDefault(); checkForm()" type="submit" value="Submit">
+			</form>
+	  </main>
+	  <script src="js/jsChallenges.js"></script>
+	</body>
+</html>

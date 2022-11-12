@@ -1,0 +1,154 @@
+/* do not change body or h1*/
+body{
+    margin:0;
+    padding:0;
+    background-color: lightgray;
+}
+
+h1{
+    font-size:32px;
+    text-align: center;
+    line-height:2;
+}
+.container{
+    border: 4px solid black;
+}
+
+/* BEGIN HERE */
+
+/* REQUIREMENTS:
+Set a grid that takes up 90% of the
+   screensize and is centered
+It should have one responsive column
+It should have 7 rows of 300px
+*/
+.container{
+
+}
+
+/* CHECKPOINT -
+HOW DOES IT LOOK?  DOES THE GRID EXIST?
+ (Use Inspect Element to check)
+  WHY do we need to scroll horizonatally?*/
+
+/* REQUIREMENTS:  Images shouldn't show outside
+the divs */
+.container > div{
+
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align:center;
+    border-top:10px dashed white;
+}
+
+
+/* CHECKPOINT
+-- Look at bottom images. Why are they
+bigger than the others?  Why is the footer
+row smaller? */
+
+@media screen and (min-width:778px){
+
+    .container > div{
+        border:  2px dashed  green;
+    }
+
+     /* REQUIREMENTS:
+    Change the background color of the body.
+    This is a quick check that your media query is correct.
+    */
+
+    /* REQUIREMENTS:
+    Change the grid to two responsive fractional columns.*/
+
+    /* CHECKPOINT?
+    How tall are the rows?  Why?
+    Do the images take up their full row?
+    (If not, make your screen smaller but still
+    more than 778px.  How about now?) */
+
+    /* REQUIREMENTS
+    Uncomment the img selector values below.  */
+
+    img{
+        /* width:; */
+        /* height:; */
+        /* object-fit: ; */
+        /* object-fit: Try fill and cover; */
+    }
+
+    .img-three,.img-six,.img-nine, footer{
+    }
+
+    /* REQUIREMENTS - Make sure the footer is
+    in the vertical center. */
+    footer{
+    }
+}
+
+@media screen and (min-width:900px){
+
+    /* REQUIREMENTS:
+    Change the h1 to uppercase, this is a quick
+    check that your media query is correct.
+    */
+
+    /* REQUIREMENTS:
+    Change the grid to
+        - four equal columns.
+        - first five rows are 375px, last one is 250px;
+    */
+
+    /* REQUIREMENTS:
+    Change the object-fit to match or example.
+     */
+    img{
+        /* object-fit: Try fill and cover; */
+    }
+
+    .img-one{
+
+    }
+
+    .img-two{
+
+    }
+
+    .img-three{
+
+    }
+
+    .img-four{
+
+    }
+
+    .img-five{
+
+    }
+
+    .img-six{
+
+    }
+
+    .img-seven{
+
+    }
+
+    .img-eight{
+
+    }
+
+    .img-nine{
+
+    }
+
+    /* REQUIREMENTS
+    Change footer so that it is aligned to the bottom
+    of its row. */
+    footer{
+    }
+
+}

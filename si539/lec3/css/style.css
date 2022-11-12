@@ -1,0 +1,30 @@
+li:nth-child(even) {
+    color: black;
+    background-color: #376F70;
+}
+
+li:nth-child(odd) {
+    color: black;
+    background-color: #BEEEEF;
+}
+
+li:nth-child(10n) {
+    margin: 0 0 50px 0; 
+}
+
+li:last-child {
+    margin: 0px;
+}
+
+img {
+    border: 5px;
+    border-color: black;
+    margin: 10px;
+    display: inline;
+}
+img:hover {
+    box-shadow: 2px 2px 2px 2px #376F70;
+}
+img:focus {
+    box-shadow: 2px 2px 2px 2px #376F70;
+}
