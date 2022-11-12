@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ddd;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  background-color: transparent;
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav li{
+  display: inline;
+  padding-right: 20px;
+
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+*:focus {
+  border-color: black;
+  border-width: 2px;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  /*Your code here - position relative to the parent */
+  position: absolute;
+  /*Your code here - place 500px left and 40px higher */;
+  left: -500px;
+  top: -40px;
+}
+
+.skip a:focus{
+  background: white;
+  top: 0;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+}
+
+.skip a:hover{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+/*Your code here*/
+/*reference: http://nemesisdesign.net/blog/accessibility/nice-css-skip-links-appearing-focus/*/
+/*Add the selector and rule to move the skip
+link to the exact top of the page.*/
+
+/*Your code here*/
+/*Add the selector and code to put a 2px black
+border around all elements in focus.*/
+
+footer{
+  background-color: black;
+  color: white;
+  grid-column: 1 / -1;
+  grid-row: 7 / auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: left;
+  /*Your code here*/
+  /*Span the top row*/
+  grid-row: 1 / span 1;
+  grid-column: 1 / span all;
+}
+
+header {
+  background: url('../images/header.jpg') #DDDDDD;
+  /* min-height: 400px; */
+
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  color: white;
+  height: 400px;
+  /* Your code here */
+  /* Set background-image to header.jpg in the images folder */
+  
+  /* Span one row */
+  grid-row: 2 / span 1;
+  grid-column: 1 / span all;
+}
+
+header p{
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.container{
+  /*Your code here  */
+  /* See documentation for mobile view */
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  row-gap: 30px;
+  /* overflow: hidden; */
+}
+
+img {
+  width: 100%;
+}
+
+.about, .method, .clients, .contact{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-column: 2 / span 1;
+  grid-row: auto / span 1;
+}
+
+.about-image, .method-image, .clients-image, .contact-image{
+   /*Your code here */
+   /* See documentation for mobile view */
+   /* width: 100%; */
+   background-color: black;
+   grid-column: 1 / span all;
+   max-height: 500px;
+   overflow: hidden;
+}
+
+.about, .about-image{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-row: 3 / span 1;
+}
+
+.method, .method-image{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-row: 4 / span 1;
+}
+
+.clients, .clients-image{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-row: 5/ span 1;
+}
+
+.contact, .contact-image{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-row: 6 / span 1;
+}
+
+.text-block{
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  position: relative;
+  margin: auto;
+  /*Your code here:*/
+  /*Align the content in the center */
+  text-align: center;
+  max-height: 25vh;
+  overflow: scroll;
+}
+
+@media all and (min-width: 800px){
+
+  .container{
+    /*Your code here */
+    /* See documentation for desktop view */
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px; 
+    grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
+  }
+
+  nav{
+    background-color: #ddd;
+    text-align: right;
+    padding: 35px 0px;
+    align-self: center;
+  }
+
+   .about, .clients, .method-image, .contact-image {
+    /*Your code here */
+    /* See documentation for desktop view */
+    grid-column: 3 / span 2;
+  }
+
+  .method, .contact, .about-image, .clients-image {
+    /*Your code here */
+    /* See documentation for desktop view */
+    grid-column: 2 / span 2;
+  }
+}  /*End the media query*/
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+    scroll-behavior: auto; /* Removes scroll animation */
+  }
+
+  .skip a{
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+

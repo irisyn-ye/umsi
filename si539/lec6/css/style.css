@@ -1,0 +1,56 @@
+ul {
+  display: flex;
+  list-style: none;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid blue;
+  /* PUT EQUAL SPACE BETWEEN ITEMS */
+  /* justify-content: space-between; */
+
+  /* ALIGN LAST ITEM RIGHT PT 1 - SEE PT 2 ON LINE 27 */
+  /* justify-content: flex-start; */
+
+  /* SET THE LIST ITEMS TO DISPLAY VERTICALLY */
+  /* flex-direction: column; */
+}
+
+li {
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid black;
+
+  /* MAKE EACH ITEM THE SAME WIDTH/HEIGHT (DEPENDING ON FLEX-DIRECTION)*/
+  /* flex-basis: 25%; */
+}
+
+li:last-of-type {
+  /* ALIGN LAST ITEM RIGHT PT 2 */
+  /* align-self: flex-end; */
+  /* Notice that align-self does not move our item. How can we move it to the right? */
+  /* margin-left: auto; */
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox#split_navigation */
+}
+
+/* CHANGE ORDER OF ITEMS */
+/* WHAT HAPPENS IF WE ONLY SET THE ORDER OF THE ITEM WE WANT FIRST? */
+/* li:nth-of-type(2) {
+  order: 1;
+} */
+/* NOT QUITE WHAT WE WANT - WHAT IF WE MOVE THE FIRST ITEM SECOND SO THEY SWAP? */
+/* li:first-of-type {
+  order: 2;
+} */
+/* STILL NOT QUITE RIGHT - THE THIRD AND FOURTH ARE APPEARING BEFORE OUR OTHER ITEMS */
+/* LET'S SET THE ORDER OF EACH ONE */
+/* li:nth-of-type(3) {
+  order: 3;
+}
+li:nth-of-type(4) {
+  order: 4;
+} */
+
+a {
+  font-size: 2em;
+  text-transform: uppercase;
+}

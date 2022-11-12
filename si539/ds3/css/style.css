@@ -1,0 +1,30 @@
+/* Identify the header, nav, main, and footer of your page (put in the correct tags) and add a "skip to content" link. 
+Style the navigation links for your site (make sure to use a class to indicate which one is the current page)
+Add style to your images focusing on the box model.
+Add a hover style to your images */
+
+img {
+    width: 350px;
+    border-color: cyan;
+    border: 5px;
+    display: inline;
+}
+
+img:hover {
+    box-shadow: 2px 3px 2px 3px #376F70;
+}
+
+.icon {
+    width: 100px;
+}
+
+.nav_bar {
+    font: georgia;
+    font-size: medium;
+    font-style: bold;
+}
+
+.product {
+    font: arial;
+    font-style: oblique;
+}

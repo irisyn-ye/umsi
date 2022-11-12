@@ -1,0 +1,85 @@
+.grid {
+	background-color: #2196F3;
+	background-image: url('../images/background.jpg');
+	padding: 10px;
+	width:90%;
+	height: 80vh;
+	text-align: center;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin: 0 auto;
+	display: grid;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+	grid-template-columns: 500px;
+	/* Play with: */
+	/* justify-content:; */
+	/* justify-items:;  */
+	/* align-items:; */
+	/* align-content:; */
+}
+
+.grid > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 5px;
+	border: 2px solid black;
+	font-size: 30px;
+	max-height: 40px;
+}
+
+h1, h2{
+	text-align: center;
+	margin: 10px;
+	font-size: 200%;
+}
+
+@media screen and (min-width: 776px) {
+
+	body{
+		background-color: yellow;
+	}
+
+	.grid > div{
+		max-height: none;
+	}
+
+	/* Make this a two column grid. */
+	.grid {
+		/* Play with: */
+		/* justify-content:; */
+		/* align-items:;  */
+		grid-template-columns: 50% 50%;
+ 	}
+
+ 	.item1{
+		/* Span the entire first row  */
+		grid-column: 1/-1;
+ 	}
+
+	.item2{
+		/* Start in row 2 and span 3 rows */
+		grid-row: 2/span 3;
+	}
+}
+
+@media screen and (min-width: 1120px){
+	body{
+		background-color: green;
+	}
+
+	/* Make this a three column grid using fr. */
+	.grid{
+		/* Why don't we bother with justify here? */
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.item3{
+		/* Start in row 2 and span two rows */
+		grid-row: 2/span 2;
+		/* Start in column 2 and span two columns */
+		grid-column: 2/span 2;
+		/* What happens if you try to span 3 columns */
+	}
+}

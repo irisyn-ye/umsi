@@ -1,0 +1,64 @@
+/* PART 1: Write these rules on your own. */
+
+body{
+  /* make all text courier, set margin and padding to 10px */
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 10px;
+}
+/* refreshing the page does not change because in the index.html file you should swap the order of html5reset.css and style.css */
+
+h1{
+  /* make your headers 32px, #128ded color and bold */
+  font-size: 32px;
+  color: #128ded;
+  font-weight: bold;
+
+}
+
+p{
+  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+  font-size: 14pt;
+  line-height: 2;
+  padding: 0px 10px 0px 10px;
+
+}
+
+
+/* Part 2: And now debug..... */
+a{
+  /* make your links red, use italics, and be underlined */
+  color: #D10000;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+a:hover{
+  /* make the background color of your link black and the text white when you hover over it */
+  color:white;
+  background-color: black;
+}
+
+img{
+  /* make the image 300px wide and 220px high, 10px of padding, and a 10px dashed border in the color of your choice */
+  width: 300px;
+  height: 220px;
+  padding: 10px;
+  border: 10px #1ba550;
+  border-style: dashed;
+}
+
+
+ul{
+  /* make bullet points red squares */
+  list-style: bullets;
+  color: red;
+}
+
+.footer{
+  /* style the footer so it has a black background and white text */
+  background-color: black;
+  color: white;
+
+}
