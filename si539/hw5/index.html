@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript Video Controls</title>
+		<link rel="stylesheet" type="text/css" href="css/video.css">
+	</head>
+	<body>
+		<main>
+			<h1>JavaScript Video Controls</h1>
+			<div class="options">
+				<button id="play">Play Video</button>
+				<button id="pause">Pause Video</button>
+				<button id="slower">Slow Down</button>
+				<button id="faster">Speed Up</button>
+				<button id="skip">Skip Ahead</button>
+			</div>
+			<figure>
+				<video class="video"
+					autoplay="false"
+					width="640"
+					height="360"
+					id="videoplayer"
+					preload="none"
+					src="assets/marchingband.mov">
+				  Your browser does not support HTML5 video.
+				</video>
+				<figcaption>[The Michigan Marching Band]</figcaption>
+			</figure>
+			<button id="mute">Mute</button><br>
+			<label for="slider">Volume</label>: 0
+			<input type="range" id="slider" min="0" max="100" value="100" step="10"> 100%<br>
+			<div>Volume is: <span id="volume"></span><br><br></div>
+			<p>Video courtesy of Allison Sweet.</p>
+		</main>
+		<script src="js/video.js"></script>
+	</body>
+</html>

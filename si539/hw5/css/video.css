@@ -1,0 +1,30 @@
+
+.options{
+	padding: 10px;
+	border:2px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.video{
+	display: block;
+	width: 90%;
+	border: 2px solid black;
+	margin: 0 auto;
+	
+}
+
+figcaption{
+	text-align: center;
+}
+.oldSchool{
+	filter: grayscale(100%);
+	width:75%;
+	border:5px double grey;
+	border-radius:20px;
+}
+button{
+	margin-bottom: 5px;
+	flex-basis: 200px;
+	font-size:125%;
+}
