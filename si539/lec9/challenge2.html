@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>JS Challenge #2</title>
+	</head>
+	<body>
+	  <main>
+	    <h1>JavaScript Challenge #2</h1>
+	    <form>
+				<fieldset>
+				  <legend>Billing Information</legend>
+					<p id="postal">
+				    <label for="postaladdress">Postal Address:</label>
+						<input name="postaladdress" id="postaladdress"></input>
+					</p>
+					<p id="same">
+				    <label for="sameaddress">Same as above</label>
+						<input onclick="toggleAddress()" type="checkbox" name="sameaddress" id="sameaddress">
+					</p>
+					<p id="home">
+						<label for="homeaddress">Home Address:</label>
+				    <input name="homeaddress" id="homeaddress"></input>
+					</p>
+				</fieldset>
+	    </form>
+    </main>
+    <script src="js/jsChallenges.js"></script>
+	</body>
+</html>
