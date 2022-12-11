@@ -1,0 +1,442 @@
+{
+  "https://swapi.py4e.com/api/planets/?search=tatooine": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Tatooine",
+        "rotation_period": "23",
+        "orbital_period": "304",
+        "diameter": "10465",
+        "climate": "arid",
+        "gravity": "1 standard",
+        "terrain": "desert",
+        "surface_water": "1",
+        "population": "200000",
+        "residents": [
+          "https://swapi.py4e.com/api/people/1/",
+          "https://swapi.py4e.com/api/people/2/",
+          "https://swapi.py4e.com/api/people/4/",
+          "https://swapi.py4e.com/api/people/6/",
+          "https://swapi.py4e.com/api/people/7/",
+          "https://swapi.py4e.com/api/people/8/",
+          "https://swapi.py4e.com/api/people/9/",
+          "https://swapi.py4e.com/api/people/11/",
+          "https://swapi.py4e.com/api/people/43/",
+          "https://swapi.py4e.com/api/people/62/"
+        ],
+        "films": [
+          "https://swapi.py4e.com/api/films/1/",
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "created": "2014-12-09T13:50:49.641000Z",
+        "edited": "2014-12-20T20:58:18.411000Z",
+        "url": "https://swapi.py4e.com/api/planets/1/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/planets/?search=r2-d2": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/people/?search=r2-d2": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "R2-D2",
+        "height": "96",
+        "mass": "32",
+        "hair_color": "n/a",
+        "skin_color": "white, blue",
+        "eye_color": "red",
+        "birth_year": "33BBY",
+        "gender": "n/a",
+        "homeworld": "https://swapi.py4e.com/api/planets/8/",
+        "films": [
+          "https://swapi.py4e.com/api/films/1/",
+          "https://swapi.py4e.com/api/films/2/",
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/",
+          "https://swapi.py4e.com/api/films/7/"
+        ],
+        "species": [
+          "https://swapi.py4e.com/api/species/2/"
+        ],
+        "vehicles": [],
+        "starships": [],
+        "created": "2014-12-10T15:11:50.376000Z",
+        "edited": "2014-12-20T21:17:50.311000Z",
+        "url": "https://swapi.py4e.com/api/people/3/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/species/?search=human": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Human",
+        "classification": "mammal",
+        "designation": "sentient",
+        "average_height": "180",
+        "skin_colors": "caucasian, black, asian, hispanic",
+        "hair_colors": "blonde, brown, black, red",
+        "eye_colors": "brown, blue, green, hazel, grey, amber",
+        "average_lifespan": "120",
+        "homeworld": "https://swapi.py4e.com/api/planets/9/",
+        "language": "Galactic Basic",
+        "people": [
+          "https://swapi.py4e.com/api/people/1/",
+          "https://swapi.py4e.com/api/people/4/",
+          "https://swapi.py4e.com/api/people/5/",
+          "https://swapi.py4e.com/api/people/6/",
+          "https://swapi.py4e.com/api/people/7/",
+          "https://swapi.py4e.com/api/people/9/",
+          "https://swapi.py4e.com/api/people/10/",
+          "https://swapi.py4e.com/api/people/11/",
+          "https://swapi.py4e.com/api/people/12/",
+          "https://swapi.py4e.com/api/people/14/",
+          "https://swapi.py4e.com/api/people/18/",
+          "https://swapi.py4e.com/api/people/21/",
+          "https://swapi.py4e.com/api/people/22/",
+          "https://swapi.py4e.com/api/people/25/",
+          "https://swapi.py4e.com/api/people/26/",
+          "https://swapi.py4e.com/api/people/28/",
+          "https://swapi.py4e.com/api/people/29/",
+          "https://swapi.py4e.com/api/people/32/",
+          "https://swapi.py4e.com/api/people/34/",
+          "https://swapi.py4e.com/api/people/35/",
+          "https://swapi.py4e.com/api/people/39/",
+          "https://swapi.py4e.com/api/people/42/",
+          "https://swapi.py4e.com/api/people/43/",
+          "https://swapi.py4e.com/api/people/51/",
+          "https://swapi.py4e.com/api/people/62/",
+          "https://swapi.py4e.com/api/people/66/",
+          "https://swapi.py4e.com/api/people/67/",
+          "https://swapi.py4e.com/api/people/68/",
+          "https://swapi.py4e.com/api/people/69/",
+          "https://swapi.py4e.com/api/people/74/",
+          "https://swapi.py4e.com/api/people/81/",
+          "https://swapi.py4e.com/api/people/84/",
+          "https://swapi.py4e.com/api/people/85/",
+          "https://swapi.py4e.com/api/people/86/",
+          "https://swapi.py4e.com/api/people/88/"
+        ],
+        "films": [
+          "https://swapi.py4e.com/api/films/1/",
+          "https://swapi.py4e.com/api/films/2/",
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/",
+          "https://swapi.py4e.com/api/films/7/"
+        ],
+        "created": "2014-12-10T13:52:11.567000Z",
+        "edited": "2014-12-20T21:36:42.136000Z",
+        "url": "https://swapi.py4e.com/api/species/1/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/people/?search=jedi%20knight": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/planets/?search=jedi%20knight": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/?search=jedi%20knight": {
+    "people": "https://swapi.py4e.com/api/people/",
+    "planets": "https://swapi.py4e.com/api/planets/",
+    "films": "https://swapi.py4e.com/api/films/",
+    "species": "https://swapi.py4e.com/api/species/",
+    "vehicles": "https://swapi.py4e.com/api/vehicles/",
+    "starships": "https://swapi.py4e.com/api/starships/"
+  },
+  "https://swapi.py4e.com/api/films/?search=jedi%20knight": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/people/?search=anakin%20skywalker": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Anakin Skywalker",
+        "height": "188",
+        "mass": "84",
+        "hair_color": "blond",
+        "skin_color": "fair",
+        "eye_color": "blue",
+        "birth_year": "41.9BBY",
+        "gender": "male",
+        "homeworld": "https://swapi.py4e.com/api/planets/1/",
+        "films": [
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "species": [
+          "https://swapi.py4e.com/api/species/1/"
+        ],
+        "vehicles": [
+          "https://swapi.py4e.com/api/vehicles/44/",
+          "https://swapi.py4e.com/api/vehicles/46/"
+        ],
+        "starships": [
+          "https://swapi.py4e.com/api/starships/39/",
+          "https://swapi.py4e.com/api/starships/59/",
+          "https://swapi.py4e.com/api/starships/65/"
+        ],
+        "created": "2014-12-10T16:20:44.310000Z",
+        "edited": "2014-12-20T21:17:50.327000Z",
+        "url": "https://swapi.py4e.com/api/people/11/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/planets/?search=https%3a%2f%2fswapi.py4e.com%2fapi%2fplanets%2f1%2f": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/planets/1/": {
+    "name": "Tatooine",
+    "rotation_period": "23",
+    "orbital_period": "304",
+    "diameter": "10465",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "terrain": "desert",
+    "surface_water": "1",
+    "population": "200000",
+    "residents": [
+      "https://swapi.py4e.com/api/people/1/",
+      "https://swapi.py4e.com/api/people/2/",
+      "https://swapi.py4e.com/api/people/4/",
+      "https://swapi.py4e.com/api/people/6/",
+      "https://swapi.py4e.com/api/people/7/",
+      "https://swapi.py4e.com/api/people/8/",
+      "https://swapi.py4e.com/api/people/9/",
+      "https://swapi.py4e.com/api/people/11/",
+      "https://swapi.py4e.com/api/people/43/",
+      "https://swapi.py4e.com/api/people/62/"
+    ],
+    "films": [
+      "https://swapi.py4e.com/api/films/1/",
+      "https://swapi.py4e.com/api/films/3/",
+      "https://swapi.py4e.com/api/films/4/",
+      "https://swapi.py4e.com/api/films/5/",
+      "https://swapi.py4e.com/api/films/6/"
+    ],
+    "created": "2014-12-09T13:50:49.641000Z",
+    "edited": "2014-12-20T20:58:18.411000Z",
+    "url": "https://swapi.py4e.com/api/planets/1/"
+  },
+  "https://swapi.py4e.com/api/species/?search=%7b%27name%27%3a%20%27anakin%20skywalker%27%2c%20%27height%27%3a%20%27188%27%2c%20%27mass%27%3a%20%2787%27%2c%20%27hair_color%27%3a%20%27blond%27%2c%20%27skin_color%27%3a%20%27fair%27%2c%20%27eye_color%27%3a%20%27blue%27%2c%20%27birth_year%27%3a%20%2741bby%27%2c%20%27gender%27%3a%20%27male%27%2c%20%27homeworld%27%3a%20%27tatooine%27%2c%20%27films%27%3a%20%5b%27https%3a%2f%2fswapi.py4e.com%2fapi%2ffilms%2f4%2f%27%2c%20%27https%3a%2f%2fswapi.py4e.com%2fapi%2ffilms%2f5%2f%27%2c%20%27https%3a%2f%2fswapi.py4e.com%2fapi%2ffilms%2f6%2f%27%5d%2c%20%27species%27%3a%20%27human%27%2c%20%27vehicles%27%3a%20%5b%27https%3a%2f%2fswapi.py4e.com%2fapi%2fvehicles%2f44%2f%27%2c%20%27https%3a%2f%2fswapi.py4e.com%2fapi%2fvehicles%2f46%2f%27%5d%2c%20%27starships%27%3a%20%5b%27https%3a%2f%2fswapi.py4e.com%2fapi%2fstarships%2f39%2f%27%2c%20%27https%3a%2f%2fswapi.py4e.com%2fapi%2fstarships%2f59%2f%27%2c%20%27https%3a%2f%2fswapi.py4e.com%2fapi%2fstarships%2f65%2f%27%5d%2c%20%27created%27%3a%20%272014-12-10t16%3a20%3a44.310000z%27%2c%20%27edited%27%3a%20%272014-12-20t21%3a17%3a50.327000z%27%2c%20%27url%27%3a%20%27https%3a%2f%2fstarwars.fandom.com%2fwiki%2fanakin_skywalker%27%2c%20%27force_sensitive%27%3a%20true%7d": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/people/?search=obi-wan%20kenobi": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Obi-Wan Kenobi",
+        "height": "182",
+        "mass": "77",
+        "hair_color": "auburn, white",
+        "skin_color": "fair",
+        "eye_color": "blue-gray",
+        "birth_year": "57BBY",
+        "gender": "male",
+        "homeworld": "https://swapi.py4e.com/api/planets/20/",
+        "films": [
+          "https://swapi.py4e.com/api/films/1/",
+          "https://swapi.py4e.com/api/films/2/",
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "species": [
+          "https://swapi.py4e.com/api/species/1/"
+        ],
+        "vehicles": [
+          "https://swapi.py4e.com/api/vehicles/38/"
+        ],
+        "starships": [
+          "https://swapi.py4e.com/api/starships/48/",
+          "https://swapi.py4e.com/api/starships/59/",
+          "https://swapi.py4e.com/api/starships/64/",
+          "https://swapi.py4e.com/api/starships/65/",
+          "https://swapi.py4e.com/api/starships/74/"
+        ],
+        "created": "2014-12-10T16:16:29.192000Z",
+        "edited": "2014-12-20T21:17:50.325000Z",
+        "url": "https://swapi.py4e.com/api/people/10/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/species/?search=padm%c3%a9%20amidala": {
+    "count": 0,
+    "next": null,
+    "previous": null,
+    "results": []
+  },
+  "https://swapi.py4e.com/api/people/?search=padm%c3%a9%20amidala": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Padmé Amidala",
+        "height": "185",
+        "mass": "45",
+        "hair_color": "brown",
+        "skin_color": "light",
+        "eye_color": "brown",
+        "birth_year": "46BBY",
+        "gender": "female",
+        "homeworld": "https://swapi.py4e.com/api/planets/8/",
+        "films": [
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "species": [
+          "https://swapi.py4e.com/api/species/1/"
+        ],
+        "vehicles": [],
+        "starships": [
+          "https://swapi.py4e.com/api/starships/39/",
+          "https://swapi.py4e.com/api/starships/49/",
+          "https://swapi.py4e.com/api/starships/64/"
+        ],
+        "created": "2014-12-19T17:28:26.926000Z",
+        "edited": "2014-12-20T21:17:50.381000Z",
+        "url": "https://swapi.py4e.com/api/people/35/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/planets/?search=naboo": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Naboo",
+        "rotation_period": "26",
+        "orbital_period": "312",
+        "diameter": "12120",
+        "climate": "temperate",
+        "gravity": "1 standard",
+        "terrain": "grassy hills, swamps, forests, mountains",
+        "surface_water": "12",
+        "population": "4500000000",
+        "residents": [
+          "https://swapi.py4e.com/api/people/3/",
+          "https://swapi.py4e.com/api/people/21/",
+          "https://swapi.py4e.com/api/people/35/",
+          "https://swapi.py4e.com/api/people/36/",
+          "https://swapi.py4e.com/api/people/37/",
+          "https://swapi.py4e.com/api/people/38/",
+          "https://swapi.py4e.com/api/people/39/",
+          "https://swapi.py4e.com/api/people/42/",
+          "https://swapi.py4e.com/api/people/60/",
+          "https://swapi.py4e.com/api/people/61/",
+          "https://swapi.py4e.com/api/people/66/"
+        ],
+        "films": [
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "created": "2014-12-10T11:52:31.066000Z",
+        "edited": "2014-12-20T20:58:18.430000Z",
+        "url": "https://swapi.py4e.com/api/planets/8/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/people/?search=%20c-3po": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "C-3PO",
+        "height": "167",
+        "mass": "75",
+        "hair_color": "n/a",
+        "skin_color": "gold",
+        "eye_color": "yellow",
+        "birth_year": "112BBY",
+        "gender": "n/a",
+        "homeworld": "https://swapi.py4e.com/api/planets/1/",
+        "films": [
+          "https://swapi.py4e.com/api/films/1/",
+          "https://swapi.py4e.com/api/films/2/",
+          "https://swapi.py4e.com/api/films/3/",
+          "https://swapi.py4e.com/api/films/4/",
+          "https://swapi.py4e.com/api/films/5/",
+          "https://swapi.py4e.com/api/films/6/"
+        ],
+        "species": [
+          "https://swapi.py4e.com/api/species/2/"
+        ],
+        "vehicles": [],
+        "starships": [],
+        "created": "2014-12-10T15:10:51.357000Z",
+        "edited": "2014-12-20T21:17:50.309000Z",
+        "url": "https://swapi.py4e.com/api/people/2/"
+      }
+    ]
+  },
+  "https://swapi.py4e.com/api/planets/?search=stewjon": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Stewjon",
+        "rotation_period": "unknown",
+        "orbital_period": "unknown",
+        "diameter": "0",
+        "climate": "temperate",
+        "gravity": "1 standard",
+        "terrain": "grass",
+        "surface_water": "unknown",
+        "population": "unknown",
+        "residents": [
+          "https://swapi.py4e.com/api/people/10/"
+        ],
+        "films": [],
+        "created": "2014-12-10T16:16:26.566000Z",
+        "edited": "2014-12-20T20:58:18.452000Z",
+        "url": "https://swapi.py4e.com/api/planets/20/"
+      }
+    ]
+  }
+}
