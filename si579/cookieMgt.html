@@ -38,7 +38,7 @@
     <div id="output"></div>
 
     <button id="cookieAdd">Add a cookie</button>
-    <button id="cookieDel">Remove a cookie</button>
+    <button id="cookieDelete">Remove a cookie</button>
     <button id="cookieCheck">Check for cookie</button>
 
     <script>
@@ -61,18 +61,9 @@
                 let value = encodeURIComponent('8745683465');
                 let expirationTime = 60 * 60 * 24 * 30; // 
                 document.cookie = `${key}=${value};path=/;max-age=${expirationTime};`; // one cookie at a time
-                // theme=gold;   score=102923873;  trackingid=AB3453453DF;
-                /**
-                ;path= absolute path. current path by default.
-                ;domain=sub.example.com current domain by default.
-                ;max-age= seconds  60*60*24*30  30 days
-                ;expires= UTC date. end of current session by default  
-                ;secure=true 
-                ;same-site=Strict | Lax
-                **/
             });
 
-            document.querySelector('#cookieDel').addEventListener('click', (e) => {
+            document.querySelector('#cookieDelete').addEventListener('click', (e) => {
                 //delete a cookie
                 let key = 'theme';
                 document.cookie = `${key}=;path=/;expires=Thu, 01 Jan 1970T00:00:00Z;`;
