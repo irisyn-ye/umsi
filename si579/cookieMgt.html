@@ -47,15 +47,15 @@
             document.body.addEventListener('click', (e) => {
                 //display the current cookie and display it in the output div
                 if (document.cookie) {
-                    document.querySelector('output').textContent = document.cookie;
+                    document.querySelector('#output').textContent = document.cookie;
                     //this will output all the key=value pairs
                 } else {
-                    document.querySelector('output').textContent = 'No cookies currently';
+                    document.querySelector('#output').textContent = 'No cookies currently';
                 }
                 console.log(document.cookie.split(';'));
             });
 
-            document.querySelector('cookieAdd').addEventListener('click', (e) => {
+            document.querySelector('#cookieAdd').addEventListener('click', (e) => {
                 //set a cookie 
                 let key = 'score';
                 let value = encodeURIComponent('8745683465');
@@ -72,22 +72,22 @@
                 **/
             });
 
-            document.querySelector('cookieDel').addEventListener('click', (e) => {
+            document.querySelector('#cookieDel').addEventListener('click', (e) => {
                 //delete a cookie
                 let key = 'theme';
                 document.cookie = `${key}=;path=/;expires=Thu, 01 Jan 1970T00:00:00Z;`;
             });
 
-            document.querySelector('cookieCheck').addEventListener('click', (e) => {
+            document.querySelector('#cookieCheck').addEventListener('click', (e) => {
                 //find if a cookie exist
                 let key = 'score';
                 let val = '';
                 if (document.cookie.split(';').filter(item => item.trim().startsWith(`${key}=`))
                     .length) {
                     //cookie that starts with key= exists
-                    document.querySelector('output').textContent = `${key} key is found`;
+                    document.querySelector('#output').textContent = `${key} key is found`;
                 } else {
-                    document.querySelector('output').textContent = `${key} key is NOT found`;
+                    document.querySelector('#output').textContent = `${key} key is NOT found`;
                 }
                 e.stopPropagation(); // prevent from the propagating
             });
