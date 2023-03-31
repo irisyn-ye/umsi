@@ -37,8 +37,9 @@
 <body>
     <div id="output"></div>
 
-    <button id="cookieAdd">Add a cookie</button>
-    <button id="cookieDelete">Remove a cookie</button>
+    <button id="cookieAddOne">Add a score cookie</button>
+    <button id="cookieAddTwo">Add a theme cookie</button>
+    <button id="cookieDelete">Remove the theme cookie</button>
     <button id="cookieCheck">Check for cookie</button>
 
     <script>
@@ -55,11 +56,19 @@
                 console.log(document.cookie.split(';'));
             });
 
-            document.querySelector('#cookieAdd').addEventListener('click', (e) => {
+            document.querySelector('#cookieAddOne').addEventListener('click', (e) => {
                 //set a cookie 
                 let key = 'score';
                 let value = encodeURIComponent('8745683465');
                 let expirationTime = 60 * 60 * 24 * 30; // 
+                document.cookie = `${key}=${value};path=/;max-age=${expirationTime};`; // one cookie at a time
+            });
+
+            document.querySelector('#cookieAddTwo').addEventListener('click', (e) => {
+                //set a cookie 
+                let key = 'theme';
+                let value = 'si579-demo';
+                let expirationTime = 60 * 60 * 24 * 60; // 
                 document.cookie = `${key}=${value};path=/;max-age=${expirationTime};`; // one cookie at a time
             });
 
