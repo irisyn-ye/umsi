@@ -130,15 +130,15 @@ for i in range(len(WORKOUTS_CACHE)):
 
 # tree
 # tree structure
-tree = ('Do you want to check out [1] fitness program, or [2] five nearby fitness center? (Enter a number): ', 
-    ('Which part you want to work on? (Enter a number between 1-6 [1] shoulders, [2] chest, [3] legs, [4] waist, [5] back, [6] arms)', 
+tree = ('Do you want to check out [1] fitness program, or [2] nearby fitness centers? (Enter a number): ', 
+    ('Which body part do you want to work on? (Enter a number between 1-6 [1] shoulders, [2] chest, [3] legs, [4] waist, [5] back, [6] arms)', 
         (shouldersM), 
         (chestM),
         (legsM),
         (waistM),
         (backM),
         (armsM),
-        ("Enter a number for the anatomy analysis and movement gif, or exit")), 
+        ('Enter a number for the anatomy analysis and movement gif, or exit')), 
     ('Please enter your city or zipcode: ', 
         (), 
         ()),
