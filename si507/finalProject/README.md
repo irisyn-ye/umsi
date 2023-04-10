@@ -29,7 +29,7 @@ Google API
 (2) Create a google account and click "Credentials" tab to get an API key
 (3) Add the API key to line 208:
 ```
-key = '<your key>'
+key: '<your key>'
 ```  
 
 ### Step 2: Install packages
