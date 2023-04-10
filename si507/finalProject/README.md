@@ -12,6 +12,15 @@ Exercise database and documentation: https://rapidapi.com/justin-WFnsXH_t6/api/e
 (2) Fitness centers nearby
 Google Place API: https://developers.google.com/maps/documentation/places/web-service/place-data-fields
 
+## Data Structure
+Tree is saved as tuples and is used as a prompt and data fetch variable. The whole project structure is built up based on the tree.
+
+The first layer is the opening prompt asking users to choose either designing a fitness program or finding a nearby fitness center. The prompts and its related data are saved under the same layer. After the user chooses which part they will be working on, the main function will fetch the according data from the tree. For example,  if the user chooses [1] shoulders, the shouldersM data will be fetched. 
+
+The python file (fitnessAssistant.py) is where all the functions and main program sits. 
+
+The json file (cache.json) file is the cache result of exercise database. 
+
 ## Run the Program
 ### Step 1: Apply an API Key for Exercise DB
 Both of the data sets already have API keys (IP restricted) available in the program. If you want to replace it with your own key, please follow the below steps.
