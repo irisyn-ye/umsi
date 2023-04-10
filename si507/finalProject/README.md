@@ -14,7 +14,7 @@ Google Place API: https://developers.google.com/maps/documentation/places/web-se
 
 ## Run the Program
 ### Step 1: Apply an API Key for Exercise DB
-Both of the data sets already have API keys available in the program. If you want to replace it with your own key, please follow the below steps.
+Both of the data sets already have API keys (IP restricted) available in the program. If you want to replace it with your own key, please follow the below steps.
 
 Exercise DB
 (1) Go to "https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/" 

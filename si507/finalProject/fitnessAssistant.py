@@ -262,7 +262,6 @@ def programDesign():
         
         if finishPrompt.lower() == 'exit':
             print(f"Bye!")
-            sys.exit()
         
         elif finishPrompt.isnumeric():
             finishPrompt = int(finishPrompt) # convert info to integer
@@ -310,7 +309,6 @@ def contOrNot():
         search(input(tree[0]))
     elif contOrNot.lower() == 'exit':
         print(f"Bye!")
-        sys.exit()
     else:
         errorHandler()
 
@@ -368,6 +366,9 @@ def search(initPrompt):
 
     except:
         errorHandler()
+    
+    else:
+        sys.exit()
 
 
 search(input(tree[0]))
