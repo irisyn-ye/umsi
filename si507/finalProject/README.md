@@ -19,7 +19,7 @@ The first layer is the opening prompt asking users to choose either designing a 
 
 The python file (fitnessAssistant.py) is where all the functions and main program sits. 
 
-The json file (cache.json) file is the cache result of exercise database. 
+There are two json files - cache.json is the cache result of exercise database, tree.json is the tree structure demonstration.
 
 ## Run the Program
 ### Step 1: Apply an API Key for Exercise DB
