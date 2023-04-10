@@ -1,0 +1,25 @@
+[
+    {
+        "t0": "Do you want to check out [1] fitness program, or [2] nearby fitness centers? (Enter a number): ",
+        "t1": {
+            "t20": "Which body part do you want to work on? (Enter a number between 1-6 [1] shoulders, [2] chest, [3] legs, [4] waist, [5] back, [6] arms)",
+            "t21": "shouldersM",
+            "t22": "chestM",
+            "t23": "legsM",
+            "t24": "waistM",
+            "t25": "backM",
+            "t26": "armsM",
+            "t27": "Enter a number for the anatomy analysis and movement gif, or exit"
+        },
+        "t2": {
+            "t30": "Please enter your city or zipcode: ",
+            "t31": "",
+            "t32": ""
+        },
+        "t3": {
+            "t30": "Enter [1] to design a new program, [2] search a new location",
+            "t31": "",
+            "t32": ""
+        }
+    }
+]
