@@ -15,6 +15,24 @@ Google Place API: https://developers.google.com/maps/documentation/places/web-se
 ## Data Structure
 Tree is saved as tuples and is used as a prompt and data fetch variable. The whole project structure is built up based on the tree.
 
+```
+tree = ('Do you want to check out [1] fitness program, or [2] nearby fitness centers? (Enter a number): ', 
+    ('Which body part do you want to work on? (Enter a number between 1-6 [1] shoulders, [2] chest, [3] legs, [4] waist, [5] back, [6] arms)', 
+        (shouldersM), 
+        (chestM),
+        (legsM),
+        (waistM),
+        (backM),
+        (armsM),
+        ('Enter a number for the anatomy analysis and movement gif, or exit')), 
+    ('Please enter your city or zipcode: ', 
+        (), 
+        ()),
+    ('Enter [1] to design a new program, [2] search a new location', 
+        (), 
+        ()))
+```
+
 The first layer is the opening prompt asking users to choose either designing a fitness program or finding a nearby fitness center. The prompts and its related data are saved under the same layer. After the user chooses which part they will be working on, the main function will fetch the according data from the tree. For example,  if the user chooses [1] shoulders, the shouldersM data will be fetched. 
 
 The python file (fitnessAssistant.py) is where all the functions and main program sits. 
