@@ -257,6 +257,7 @@ def programDesign():
         for i in programChoices:
             print(f"{counter} {bodyPartM[i]['name']}, {bodyPartM[i]['workSet']} sets, {bodyPartM[i]['workRep']} reps")
             counter += 1
+        
         finishPrompt = input(f"{tree[1][-1]} {startOver}: ")
         
         if finishPrompt.lower() == 'exit':
