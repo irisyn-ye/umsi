@@ -50,8 +50,6 @@ class WorkoutDB:
 Workouts = [WorkoutDB(json=d) for d in WorkoutData]
 
 # step 3 cache
-# All functions should go to the very top
-# leave for later when completing data fetching
 CACHE_FILENAME = "cache.json"
 
 def open_cache():
@@ -248,10 +246,11 @@ def programDesign():
     '''
 
     fitProgram = int(input(f"{tree[1][0]} {startOver}: "))
-    if fitProgram == 0:
+
+    if fitProgram == 0: # restart
         search(input(tree[0]))
     
-    else:
+    else: # select body part
         bodyPartM = tree[1][fitProgram]
         programChoices = [random.randint(0, (len(bodyPartM)-1)) for n in range(5)]
         counter = 1
@@ -262,6 +261,7 @@ def programDesign():
         
         if finishPrompt.lower() == 'exit':
             print(f"Bye!")
+            sys.exit() 
         
         elif finishPrompt.isnumeric():
             finishPrompt = int(finishPrompt) # convert info to integer
@@ -275,7 +275,7 @@ def programDesign():
         elif finishPrompt == 0:
             search(input(tree[0]))
 
-        else:
+        else: # body part error input handler
             finishPrompt = int(input(f"Please enter a valid response (Enter number between 1-5): "))
             muscleGroups = bodyPartM[programChoices[finishPrompt-1]]['targetMuscle']
             url = bodyPartM[programChoices[finishPrompt-1]]['gifUrl']
@@ -301,14 +301,15 @@ def contOrNot():
     '''
 
     contOrNot = input(f"{tree[3][0]} {startOver} or exit: ")
-    if int(contOrNot) == 1:
+    if int(contOrNot) == 1: # [1] design fitness program
         programDesign()
-    elif int(contOrNot) == 2:
+    elif int(contOrNot) == 2: # [2] fitness centers nearby
         gymSearch()
-    elif int(contOrNot) == 0:
+    elif int(contOrNot) == 0: # restart
         search(input(tree[0]))
-    elif contOrNot.lower() == 'exit':
+    elif contOrNot.lower() == 'exit': #exit
         print(f"Bye!")
+        sys.exit() 
     else:
         errorHandler()
 
@@ -355,20 +356,21 @@ def search(initPrompt):
     try:
         initPrompt = int(initPrompt)
 
-        if initPrompt == 1:
+        if initPrompt == 1: # [1] design fitness program
             programDesign()
 
-        elif initPrompt == 2:
+        elif initPrompt == 2: # [2] fitness centers nearby
             gymSearch()
 
         else:
             errorHandler()
+    
+    except Exception: # exit
+        print(f"Bye!")
+        sys.exit()
 
     except:
         errorHandler()
-    
-    else:
-        sys.exit()
 
 
 search(input(tree[0]))
