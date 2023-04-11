@@ -71,7 +71,8 @@ $ pip install <package name>
 ```  
 
 ### Step 3: fitnessAssistant.py
+Run the python file directly. The program uses command line prompt for interaction.
 ```  
 $ python fitnessAssistant.py
 ```  
-The program uses command line prompt for interaction.
+
