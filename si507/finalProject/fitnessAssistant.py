@@ -186,7 +186,7 @@ def anatomyGif(muscleGroups, url):
 # gym locations
 def gymFinder(location):
     ''' use Google Place API to search for the gym nearby,
-    print the neares five gyms nearby the input,
+    print the nearest gyms nearby the input,
     input can be city/place name, or zipcode,
     each result is printed in a line, with name, rating and address
     
@@ -212,12 +212,14 @@ def gymFinder(location):
     # Get the response data as JSON
     data = response.json()
 
+    counter = 1
     # Loop through the results and print the name and address of each gym
-    for result in data['results'][:5]:
+    for result in data['results']:
         name = result['name']
         address = result['formatted_address']
         rating = result['rating']
-        print(f'{name} (rating {rating}): {address}')
+        print(f"{counter} {name} (rating {rating}): {address}")
+        counter += 1
 
 # [1] design a fitness program
 def programDesign():
