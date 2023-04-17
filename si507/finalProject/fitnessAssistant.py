@@ -8,7 +8,7 @@ import random
 BASE_URL = "https://exercisedb.p.rapidapi.com/exercises"
 
 headers = {
-	"X-RapidAPI-Key": "5380f3b0fcmshec010dad98ad6e5p199bcbjsnaa3538ec72c2",
+	"X-RapidAPI-Key": "<-API KEY->",
 	"X-RapidAPI-Host": "exercisedb.p.rapidapi.com"
 }
 
@@ -203,7 +203,7 @@ def gymFinder(location):
     url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
     params = {
         'query': 'gyms near ' + str(location),
-        'key': 'AIzaSyCcADhdYBBpPljyQc36tBOlcof0t7UwIRs'
+        'key': '<-API KEY->'
     }
 
     # Make the API request

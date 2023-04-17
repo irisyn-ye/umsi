@@ -38,10 +38,11 @@ The first layer is the opening prompt asking users to choose either designing a 
 The python file (fitnessAssistant.py) is where all the functions and main program sits. 
 
 There are two json files - cache.json is the cache result of exercise database, tree.json is the tree structure demonstration.
+![sample data](https://drive.google.com/file/d/1A-zD8bjwVGQbiusUkUZbGneq-bY1kgCq/view?usp=share_link)
 
 ## Run the Program
 ### Step 1: Apply an API Key for Exercise DB
-Both of the data sets already have API keys (IP restricted) available in the program. If you want to replace it with your own key, please follow the below steps.
+Both of the data sets need a key to access. Please follow the below steps to get the keys:
 
 Exercise DB
 (1) Go to "https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/" 
