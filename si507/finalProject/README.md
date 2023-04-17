@@ -38,7 +38,7 @@ The first layer is the opening prompt asking users to choose either designing a 
 The python file (fitnessAssistant.py) is where all the functions and main program sits. 
 
 There are two json files - cache.json is the cache result of exercise database, tree.json is the tree structure demonstration.
-![sample data](https://drive.google.com/file/d/1A-zD8bjwVGQbiusUkUZbGneq-bY1kgCq/view?usp=share_link)
+![sample data](https://github.com/irisyn-ye/umsi/blob/main/si507/finalProject/sample_data.png)
 
 ## Run the Program
 ### Step 1: Apply an API Key for Exercise DB
