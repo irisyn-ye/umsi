@@ -1,0 +1,78 @@
+# ctrl/cmd+shift+C -> comment/uncomment
+# ctrl/cmd+return -> run the specific line of code
+# select the part of code you'd love to run
+# use head() to limit the number of lines returned 
+
+# Read in the data
+library(dplyr)
+
+# trips data 
+trips <- read.csv('trips.csv')
+
+# read column names 
+ncol(trips)
+
+
+# count rows
+nrow(trips)
+
+
+# unique service_id 
+trips %>% 
+  select(service_id) %>% 
+  unique()
+
+# create new data set without the last four columns
+trips_2 <- trips %>%
+  select(-tail(names(trips), 4))
+deleted_col_counts = ncol(trips) - ncol(trips_2)
+deleted_col_counts
+
+# what columns are in the new dataset trips_2
+colnames(trips_2)
+
+# convert dummy variable to semantic text 
+# direction_id is dummy variable
+trips_2 %>% 
+  select(direction_id) %>% 
+  head(10)
+
+trips_2 %>%
+  mutate(direction_text = ifelse(direction_id == 1, "outbound", "inbound")) %>%
+  head(5)
+
+trips_2_direction_text <- trips_2 %>%
+  mutate(direction_text = ifelse(direction_id == 1, "outbound", "inbound"))
+
+trips_2_direction_text %>%
+  select(direction_text) %>%
+  head(10)
+
+trips_2 %>% # this will return error, why?
+  select(direction_text) %>%
+  head(10)
+
+trips_2 %>% colnames() # trips_2 data was not modified
+
+# count records of route 4 to "Washtenaw to YTC" direction
+route_4_count <- trips_2 %>% 
+  filter(route_id == 4 & trip_headsign == "Washtenaw to YTC") %>%
+  count()
+route_4_count
+
+# routes data
+routes <- read.csv("routes.csv")
+colnames(routes)
+
+# unique routes in trips df
+trips_uniq_routes <- trips %>%
+  select(route_id) %>%
+  unique()
+
+trips_uniq_routes
+
+# count unique routes in trips
+trips_uniq_routes %>% count()
+# count unique routes in routes
+routes %>% count()
+

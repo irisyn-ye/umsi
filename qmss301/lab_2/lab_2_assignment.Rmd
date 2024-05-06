@@ -1,0 +1,82 @@
+---
+title: "Lab 2: Assignment"
+output: pdf_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+```
+
+To practice data manipulation in R, we'll be exploring the flights dataset
+consisting of all the flights that departed from NYC in 2013.
+
+Wickham, H. (2014). nycflights13: Flights that Departed NYC in 2013.
+https://CRAN.R-project.org/package=nycflights13
+
+# Problem 1
+
+Read in the data.
+
+```{r}
+
+```
+
+# Problem 2
+
+Obtain the descriptive statistics of the data.
+
+```{r}
+
+```
+
+# Problem 3
+
+How many flights departed from NYC between June and July of 2013?
+Hint: the `n()` function is a useful summary function that returns the number
+of observations in a data frame.
+
+```{r}
+
+```
+
+# Problem 4
+
+Which three carriers had the highest average departure delays?
+
+```{r}
+
+```
+
+# Problem 5
+
+Which destination airport corresponded to the longest flights on average for
+flights departing from JFK airport?
+
+```{r}
+
+```
+
+How far is this destination airport from JFK airport?
+
+```{r}
+
+```
+
+# Problem 6
+
+What was the busiest day of the year for travel (i.e., the day corresponding to
+the highest number of flights)?
+
+```{r}
+
+```
+
+# Problem 7
+
+Create a binary variable that corresponds to 1 if the arrival delay exceeded one
+hour and 0 otherwise.
+
+```{r}
+
+```

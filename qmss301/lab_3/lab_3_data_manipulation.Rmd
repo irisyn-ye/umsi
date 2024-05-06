@@ -1,0 +1,80 @@
+---
+title: "Lab_2 - Data Manipulation in R"
+author: "Vardh Jain"
+date: "2024-01-19"
+output: html_document
+---
+
+`# Data Manipulation
+
+Use the `read.csv()` function to read in data. Today, we'll be exploring the
+iris dataset consisting of three iris species (setsosa, versicolor, virginica)
+of 50 observations each.
+
+```{r}
+# read data
+iris_df = read.csv("iris.csv")
+iris_df
+```
+
+The `summary()` function will provide basic descriptive statistics for numeric
+columns.
+
+```{r}
+# descriptive statistics
+summary(iris_df)
+```
+
+In R, dplyr is a package that provides a set of functions for data manipulation.
+The pipe operator (`%>%`) passes the output on the left-hand side of the
+operator into the function call on the right-hand side. This allows function
+calls to be arranged as a chain of operations on a data frame, ultimately
+improving the readability of the code.
+
+```{r}
+# pipe operator (%>%)
+iris_df %>% summary()
+```
+
+The `select()` function selects columns from a data frame. The `arrange()`
+function arranges rows by the values of the specified columns. To arrange the
+rows in descending order, use the `desc()` function.
+
+```{r}
+iris_df %>%
+  select(species, sepal_length, sepal_width) %>%
+  arrange(desc(sepal_length))
+```
+
+The `mutate()` function creates new columns in the data frame. The `ifelse()`
+function is useful for creating a binary variable according to a specified
+condition.
+
+```{r}
+iris_df %>%
+  mutate(versicolor = ifelse(species == "Iris-versicolor", 1, 0)) %>%
+  select(species, versicolor)
+```
+
+The `filter()` function subsets rows of a data frame by retaining the rows that
+satisfy the specified conditions.
+
+```{r}
+iris_df %>%
+  filter(sepal_width > 3) %>%
+  arrange(sepal_width)
+```
+
+The `group_by()` function groups the data frame for future operations by the
+specified columns. For example, the `summarize()` function can be used on
+grouped data to perform a summary function (e.g., median, IQR, count) by the
+grouping variables.
+
+```{r}
+iris_df %>%
+  group_by(species) %>%
+  summarize(avg_petal_length = mean(petal_length),
+            SD_petal_length = sd(petal_length),
+            avg_petal_width = mean(petal_width),
+            SD_petal_width = sd(petal_width))
+```

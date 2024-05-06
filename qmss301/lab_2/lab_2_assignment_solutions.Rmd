@@ -1,0 +1,114 @@
+---
+title: "Lab 2: Assignment Solutions"
+output: pdf_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+```
+
+To practice data manipulation in R, we'll be exploring the flights dataset
+consisting of all the flights that departed from NYC in 2013.
+
+Wickham, H. (2014). nycflights13: Flights that Departed NYC in 2013.
+https://CRAN.R-project.org/package=nycflights13
+
+# Problem 1
+
+Read in the data.
+
+```{r}
+flights_df = read.csv("flights.csv")
+```
+
+# Problem 2
+
+Obtain the descriptive statistics of the data.
+
+```{r}
+summary(flights_df)
+```
+
+# Problem 3
+
+How many flights departed from NYC between June and July of 2013?
+Hint: the `n()` function is a useful summary function that returns the number
+of observations in a data frame.
+
+```{r}
+flights_df %>%
+  filter(month == 6 | month == 7) %>%
+  summarize(n_flights = n())
+
+# solution: 57,668 flights
+```
+
+# Problem 4
+
+Which three carriers had the highest average departure delays?
+
+```{r}
+flights_df %>%
+  select(carrier, dep_delay) %>%
+  group_by(carrier) %>%
+  summarize(avg_dep_delay = mean(dep_delay, na.rm = TRUE)) %>%
+  arrange(desc(avg_dep_delay)) %>%
+  head(3)
+
+# solution: F9, EV, YV
+```
+
+# Problem 5
+
+Which destination airport corresponded to the longest flights on average for
+flights departing from JFK airport?
+
+```{r}
+flights_df %>%
+  filter(origin == "JFK") %>%
+  select(dest, air_time) %>%
+  group_by(dest) %>%
+  summarize(avg_air_time = mean(air_time, na.rm = TRUE)) %>%
+  arrange(desc(avg_air_time)) %>%
+  head(1)
+
+# solution: HNL
+```
+
+How far is this destination airport from JFK airport?
+
+```{r}
+flights_df %>%
+  filter(origin == "JFK", dest == "HNL") %>%
+  select(origin, dest, distance) %>%
+  head(1)
+
+# solution: 4,983 miles
+```
+
+# Problem 6
+
+What was the busiest day of the year for travel (i.e., the day corresponding to
+the highest number of flights)?
+
+```{r}
+flights_df %>%
+  group_by(month, day) %>%
+  summarize(n_flights = n()) %>%
+  arrange(desc(n_flights)) %>%
+  head(1)
+
+# solution: November 27
+```
+
+# Problem 7
+
+Create a binary variable that corresponds to 1 if the arrival delay exceeded one
+hour and 0 otherwise.
+
+```{r}
+flights_df =
+  flights_df %>%
+  mutate(arr_delay_1hr = ifelse(arr_delay > 60, 1, 0))
+```

@@ -1,0 +1,32 @@
+﻿route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+22,1,22,Pontiac - Dhu Varren,,3,,6666ff,ffffff
+23,1,23,Plymouth,,3,,993399,ffffff
+24,1,24,Eisenhower - Golfside,,3,,3366,ffffff
+25,1,25,Ann Arbor - Saline Rd,,3,,666633,ffffff
+26,1,26,Scio Church,,3,,993399,ffffff
+27,1,27,W Stadium - Oak Valley,,3,,993300,ffffff
+28,1,28,Pauline,,3,,6666ff,ffffff
+29,1,29,Liberty,,3,,cc3399,ffffff
+3,1,3,Huron River,,3,,666633,ffffff
+30,1,30,Jackson Rd,,3,,993399,ffffff
+31,1,31,Dexter Ave,,3,,6666,ffffff
+32,1,32,Miller - Maple,,3,,cc6600,ffffff
+33,1,33,Newport,,3,,0080c0,ffffff
+34,1,34,Maple - Dexter,,3,,8000,ffffff
+4,1,4,Washtenaw,,3,,993399,ffffff
+42,1,42,Forest - MacArthur,,3,,cc6600,ffffff
+43,1,43,E Michigan Ave,,3,,666633,ffffff
+44,1,44,Ecorse - Tyler,,3,,3366,ffffff
+45,1,45,Grove,,3,,6666ff,ffffff
+46,1,46,Paint Creek,,3,,6666,ffffff
+47,1,47,Harriet - W Michigan,,3,,993300,ffffff
+5,1,5,Packard,,3,,6666ff,ffffff
+6,1,6,Ellsworth,,3,,cc3399,ffffff
+61,1,61,U-M Miller,,3,,993399,ffffff
+62,1,62,U-M - State,,3,,cc6600,ffffff
+63,1,63,U-M - Pontiac,,3,,cc6600,ffffff
+64,1,64,Geddes - E Stadium,,3,,6666,ffffff
+65,1,65,U-M - Downtown - Green,,3,,3366,ffffff
+66,1,66,Carpenter - Huron Pkwy,,3,,993300,ffffff
+68,1,68,Harris - Ford,,3,,00ff00,ffffff
+999,1,999,CADAVL TEST ROUTE,,3,,ffffff,ffffff
